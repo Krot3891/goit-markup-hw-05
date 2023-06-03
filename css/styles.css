@@ -664,7 +664,7 @@ border-radius: 4px;
 
 transition: color var(--anim-main),
 background-color var(--anim-main),
-border var(--anim-main),
+/*border var(--anim-main),*/
 box-shadow var(--anim-main);
 }
 
