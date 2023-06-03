@@ -711,7 +711,7 @@ border-top: none;
 .portfolio-link {
 display: block;
 
-transition: box-shandow var(--anim-main);
+transition: box-shadow var(--anim-main);
 }
 
 .portfolio-link:hover,
