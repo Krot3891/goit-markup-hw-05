@@ -710,6 +710,8 @@ border-top: none;
 
 .portfolio-link {
 display: block;
+
+transition: box-shandow var(--anim-main);
 }
 
 .portfolio-link:hover,
@@ -721,7 +723,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 .portfolio-items {
 width: calc((100% - 48px) / 3);
-
 }
 
 .portfolio-items:hover .portfolio-cover-text,
@@ -745,5 +746,6 @@ padding: 40px 32px;
 background-color: var(--third-text-color);
 height: 100%;
 transform: translateY(100%);
+
 transition: transform var(--anim-main);
 }
