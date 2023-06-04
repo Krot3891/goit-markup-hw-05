@@ -727,10 +727,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 width: calc((100% - 48px) / 3);
 }
 
-.portfolio-items:hover .portfolio-cover-text,
-.portfolio-items:focus .portfolio-cover-text {
+.portfolio-link:hover .portfolio-cover-text,
+.portfolio-link:focus .portfolio-cover-text {
 transform: translateY(0);
 }
+
+/*.portfolio-items:hover .portfolio-cover-text,
+.portfolio-items:focus .portfolio-cover-text {
+transform: translateY(0);
+}*/
 
 .portfolio-cover-wrap {
 position: relative;
